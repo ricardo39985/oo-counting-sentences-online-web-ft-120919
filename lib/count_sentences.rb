@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    retun self[-1]=='.'? true : false
+    return self[-1]=='.'? true : false
   end
 
   def question?
